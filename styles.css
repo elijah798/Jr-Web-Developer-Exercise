@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width:100%;
+}
+
+.horizontal {
+    display:flex;
+    flex-direction: column;
+    
+    height: 16.6666666667vh;
+    width: 10%;
+    
+    background: white;
+}
+
+.vertical {
+    display: flex;
+    
+    height: 16.6666666667vh;
+    width: 10%;
+   
+    background: white;
+}
+
+.rect1Horizontal {
+    height: 50%;
+    width:100%;
+    overflow:hidden;
+    background: white;
+    outline: 1px solid;
+}
+
+.rect2Horizontal {
+    height: 50%;
+    width:100%;
+    overflow:hidden;
+    background: white;
+    outline: 1px solid;
+    
+}
+
+.rect1Vertical {
+    height: 100%;
+    width:50%;
+    overflow:hidden;
+    background: white;
+    outline: 1px solid;
+}
+
+.rect2Vertical {
+    height: 100%;
+    width:50%;
+    overflow:hidden;
+    background: white;
+    outline: 1px solid;
+    
+    
+}
